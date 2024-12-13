@@ -1,0 +1,158 @@
+.head{
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    background-image: url('p5-text-transformed-cutout.png.');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    background-position: center;
+    line-height: 170px;
+}
+
+#main-body{
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/2112810045990427739/7358CEE9D16F83C295A06BCBD47D6F7C8967FE79/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#combat-body{
+    background-image: url('joker-allout-transformed.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#story-body{
+    background-image: url('p5-calendar-transformed.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+#storyButton{
+    width: 300px;
+    height: 200px;
+    margin-left: 140px;
+    margin-right: auto;
+    background-image: url('story-image-transformed.jpeg');
+    background-size: cover;
+    color: crimson;
+    font-style: bold;
+    font-family: fantasy;
+    font-size: 20px;
+    border: dashed crimson;
+}
+
+#themesButton{
+    width: 300px;
+    height: 200px;
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUTEhMVFRUVFxUVGBUXFxUVFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQFy0dHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLTcrLS0tLS0tLS0tLSstOCsyLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAADBAACBQEGBwj/xABAEAABAwIDBQMJBAkFAQAAAAABAAIDBBEhMUEFElFhkQZxgRMiMqGxs8HR8CRSc+EzNEJDU2NygvEHFCNiknT/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAiEQEBAAIDAAMAAgMAAAAAAAAAAQIRAxIhEzFBBJEUUYH/2gAMAwEAAhEDEQA/APlm3mgVVRh+/n965ZxctDtEftVR+PP716zmtupaOl11WytuqtkAWNnciMCBdW30KlFdCCgyQAY3Hx9S49xVWxkpxOVl/A11oGq65ts1VNAhl0AsqXXFAgCxm2PRdjOaGSoCmFos0etOKXaUaoKArBmmJXWbzKVjNiuvfdILQAb2OSap2bxLjlmloW3w4rTLN1u74u+ATBWXDFJ2R6iS55IQCRr07cU55IHCyrTRWF+PsTNMMR32TBVrrYEfmuPjtiMkyYwbgoccVkg7E8cB3JwbrhYgHwxHfxSu4rNbbig0koxp8wrQjdFrAhdLiMVzywOfVTTl0sQOCjGjgrRkd6ZiYFnldN8J2WZE22WKsacWyCKwDgjPYsezqmBNsA4K7YBwCbjjV/JJXJcwLsgHAJ6mhFshnwVWRpynZh4qLk3xx8eD7Qn7XU/jz+9ckg/knu0DftdT+PP71yR3F3vDm03goXBTcU3EaPahxVg1Xa1HaGjmg5NlwxTesrEmxwQZL6oK+OSPuqKKJoRdXFYNugOKLtlAEBArudcDkuuZZVKNncdfbiuxt12OO6dhDWYnEoIxRwBg33eCVqZ97LAIkzycX5cNSlHOv8kzUsmKaC5xyXYYNSjOkvg0JB2eXQJimb6Hff2fJKbmIGfFOxnM8BbxP+UAF5sboj23Fx9FVc24K5TOPgltUx3dR1hurkqhZY30RtxBWONeOSHPBqMlSWOxRqVribNxvolacm3KWNrsCSCn6eIg2OPApOWmc04ghbNNHvNDvq6w5K6+HH+4syBW3E9S099FySLHBc9yd0xLtaiMYiCNEaxTaqRxsaagiwQw1NQNwU7W+f7b3RU1GH7+f3r0q1+g+CLt9v2qo/Hn965KM5r03iQYgHRCdS3GGf1oiteFczIVpmOFsCFZjk3UR7+IzSDm2Qj6FL80FrC7IEqxJKcpLWQUnalHUzhoUEhbzbZlY1QbuNuJTl2fJx9ZsJXYqK27qmzxcK6FxdQS5uSiNiGpQ2uVg+2QQdtpgcsAq+VAyz4oBcSiMsM8eXzQS7WF2J6ogc1uWKqGudngEZga3mUzRkZdngFewAwXbk5/XyQZn3w0SC8ZzcfBHbgAOKXjOpyGS6JLuCDNoVIcbFEBxPKyVYbJU5bD8kW6L/WBsUSHhppyXQ/fZz1SzJLGxQDM8YIW7sCkbGN5w84+NgsOMrbi2xyb4AjrisuSWzx0fx7jLutOpoxKLEYDXh3c0pRUBZhbInTQFOUO0GOBBO6eONitSKQbgGHfnfVct3PK9Cat3GTMHA43HsQmsWo8l2BQjDjks7WkJhiIyG6bZFjknoKYXup2dZrIE7FT2C0DGP2R9dys2Pikns+O9oJQKmow/fz+9csvyif7Qj7VUfjz+9es0MXqvH9MskB1sisaDrdBig5qNO6UKhljUjPmU7G7VJVIxKIWSkSPQ524peNFad03CKnG6rQDeax3r0VI9hxda1v8rz89rm2Vz0Rivm+oErNC4oqc8dIsouFFghc42aCTwAultXUNWCbds6QZtI8EJ0JCWzs/0EERjraKhC6FRWaHaXO1TUcQHegwiwuVWWa+SCEll0CE5VaVYBK1UxdV4hiO9WjhJTUVC85NJvgLAqO0XICyTzjzw+Soj1FI5npNI7xZUjbcp7Kz9EheWo8rQ7FvRR1ONF1rLDEZaplQYwvTUWx7BpIuSAbfCy89G65xX0TZJvEx+fmj1YFY8ldP8bGWlYNl/wDUAIsbAywv+SvU1BOF7fXFKubZcuVelji0Sy91LcEGneDhqmmM5rOjSRwcky7DkixtAwVpGqaRNshum4jgqNjCYjjUylXxPbpH+6qL/wAef3rkm540Tm3P1qpH8+f3rlluzXsPH34bY5Qyg5pVrSUVsSFSmo5WjM+pKSv3iSrOjwJvkgXQMq63NFkCrEy6NuXTRpKaLfwLu7ghVsO6QOSmRRGPBdd2QGASV5Zom5tsFxFqLXwR6ClElxezrYDiVTKz0nZauwagMkuciLX4X1S8NGS/cOBvbuK7UUjonWPfcZW4pLns0+0bOpoGSO9BoljZ5F5sRcNINr5uxv3OKBt7srDUCJrXxGUC8pFg4jdIDt0Y2Lrdy+abO7SVEbPJh29H9x7Wvb4BwNk63tbVNG6xwjB0jYxnsC4v8WfP8u2na9OrL7RbFfSymN45g6EHIgrJC1No1s05vK9zyMBvEmwSxoX7u9und42Nuq7GeixffNcVzGURsB4JWqxxDaFr7B2S+okbGwXLjb4lLw7Oe4EhpIGJIGA70WhqZIXBzHOaRqCQfUjZ6fU9idk4KWZonDXh7bNLhgJATcY4XsWkZXsV6Oo2dGY44i+MyCRrxha7GuuQGgHTC5tmvl9N2zqN3ce4SNP7MjQ8evFFb2pm3SItyK+ZjYGk/wBxuVw5/wAWZc05N/8AGuMy69YY/wBT3ReXayMAFrfPta28TlhrYDqF4+mi1WtFsySUOkPotxc9xwvw4uJ4c0nuY21XdPfWOU6zTjGoTsTb6wXoJqYUsYc/9M8eYz+GP4jufAfQxaaEnGyLUzG2hUsBcSBmBcDieC3tjbUMY8m4kC+HI63WbQMIeTbK/tWpub3pAd+vVYcmX47uDjs9jZdKx3H64FBMZ0S1KGtGAPU26J+B4suWu+eqR3CbjmJzKqGg5IjY1FFhiNxRxIUKFiajapTXI3JqLJD8lwTEMRslGdr4jtyP7VUH+fP71yTbT3WjtoE1VR+PN71yHHTleu86SEns3RgEoZDdOVct/NGQUoqcHE5D1pxF9uoBHA52iKyjPBPuHBEicB+aNrnGywyyLGAtGWRpwcFIhF90nldLaviZk7AlSxPV8e6cMtPklmpsssdUMRXXRG5uIvyK1KdjQ29rlHY9pFnC44aJbV8Wy0VQJLHASNtbQPtpyK3HQtkbiNCOYuLEfXBeRmFnEDiei9L2fn3mburT6jl8UVnPstsCgvLYj0fbe3zX0Adk43jzzfuAB6rzVAwNmfzDXfP1r6RSu3mg8QD1UnWBJ2ahiglDG3cWO851i7LIYYI82zWspQy3ohvUnH2lehLVi7dmsAwd5+CdG9vHS7AZK4BoDXEjHTxW3sjsfG1//L59mjD9m7ietgPWrbN/SN/qHtXr4o8SePwSh9rJopSbLjjZuMaA3XW/fxXlqzsJvOJY8AE4Ag4DgvdgKWTKZV4uk7DRN9N7nHkAB67rF2xskRzmNl7eba+OYHxX01zV5epgD64DRu6f/Lb+1TW3Fnd1eTYzWxDyhuyNpIYPNaSBclxzcSe5eIpJmwTOdIA5zL7rRkX3wufujPwC9r21rfJwFoOMht/aMXfAeK+Z23iqjC3dOyyPneXvNycT9aBORsAbh+ZOgCrQNFvSAutGPyY5+Cxzy/HdwcUk2rs+EMHFxxPem37tjcC+iEyeMDIoTprlY3ddcsk0uAmIggNTkLVFhSm6eEnHJNsh4paNzkxG1xWditmA4aI0b1RkCK2NLSLks0pmMmypHGm4o8EaRcnwnblZaqqB/Pn965Z81c52F0btAPtdR+PP716RIXrPL7UVgtieiO1/MDkhSWsNcFRrkly6OMmtqu73AFIb5R45kquZiyEqRu5ob50BzkaFyOVMtxu52S7QqxglFcnIi5dq0GR/8bSLIDRY3Oiep2ncFhhbwzQJaYuwuLDQa+Kl03HyMhzS4k+Kf2HU7kgvkcD45etHa3dwswD4LLZngr+3Lnj19e0Lt2Vh+8C34he57PVO8zd1b7F8/rL+TDhm0tcO769i39mVhaQ5vf3gqCe6uvJ7Vl3pHHnbpgt+kr2yDA48NfzXmKp13HvKKINs39I3+oe1ezjXiaB1nt7x7V7OGYHI3tw+aIKOuriiaXHLCoWb1TM/hZv1/wCVsVM4Y0udkBdeZqKs09M+X95KS4ct7AHwvfxSaY+SvM9sK/ys5AxazzR3g4+v2LIgpCRfTjxQ9+5udStikaLXTt0fHjv0CCgPEJ+OgtqjQQki4CcZR29LE/WixrrxmikdIPrFEiphfIrQEDbYDFdaLKK0gUdPwb4lPUtMhsm8ERtRfK3zWdXMTLIgUzHALaBKQvTcUnFQLBw0cFdkAuuMIRmWSqKNHEnYocEtEU7FeyJpllX5o2/+tVP/ANE/vXpNrsk12gH2up/Hn965Jheo86DOkuqCyqI1UtKWl7E8qENz1PJrrY0aLagRGMRBHgjww3sSQAg5NrRwO4WCbpKdt/Ox7kFhJN74J+AA6qa6OPFZ02gFhwv8F2BthiAuyxcPWo15Atgk6AKqMbpNtCq0dA0xm/pZ3vgBomABjvOFtVk1lZvOIbg32804x5Os9r11LFvwtH/Xd48j7F3ZVw0sdgWG3gckPs2+8I5Ej13+K1nRXx14p2OSUMXzBsVGSO1b0N1YBN0LXbw3PS0soWZ2fSONnljnNxyIv8SvRUsrgLCJzQONh7bJCOtI9OK542A9qcgqt4+bEb8TYetV4n0U1jybNjJ53s3qjbjnDzyBybfDxzPqRmjilq2rEYxz0H1ogmVtmqD5BF+y2zn8zowfXsWN2ycRA0u9KR+XBjQbAeJBWjsaJssjvOBIN3nUk/BZ3+ojsYm8A49SB8ERVu/I8VHmt+hh3gMcNefJY1GwF2K12zC1hha3dgoyro4cW4ydjRcALgr28FjYg8uisAThcfBZ3J1zFsR19zY2ARJZmnI4dxWLG03wt3ppt+KztXIbvewCtcg5IDG2xTdPc52WdqjNMU5E25QWx45orMNQppWGmtsjRvS0eOqbih5jqiTf0zpyFy04TgkKeHmOq1YYsM0fVYZvzZtlo/3NR+PP71yS3ANAj7entU1GH7+f3r0gKjkvTcnhgztGg6IUhYcUC2qhCCFLG8Sl72KuHLhHFBWDjEKRu9SHHy6aqzQgS6Gc9Ty1jgqtjLsgSiGhfq0paX2v4t/vb5rrK4DMYJWbzc8+CUe+6Oo+bKHayu38BgPb3pVmaGFo7JoTK8NHieA4qtaZZZXK7r1XZZhEXe426BboQKWENaGjAAWTASJHMuiUkhY4HgVVWCVhyvZQSBwBGRxRrrydFXPjwacOBxHhwTUm1pHC2A7s+pKWj21a7aAZgMXeod/yXnazykhsDa9y55ya0ZlHgiLzYYkraGxmlrWnIHecPv2yB5XxTLbN2KyHfZusdGWh2444eWbaxJ53xXmv9RZv+do+6wDqSfivo74m4XA83EcsLYeC+bds4TITKNCb92nRBPKskINwnYKgfks8rrSi47a4Z3F6eKpDhbM81HEALLoasDA4c/mm5X3x05LDLHTux5JYs2Qppj0jGxHZgosVMjbZgjsnPFINKZjYFFiuzSiqCU02ULMjfZHZKFNmz21YJMVoRSLEhenoZkpbE31uU8i2IJcF5uCRacEpsp3ds8o/O233faqj8ef3r0lvBH7R/rdT+PP71yRC9R50plstlC8ngg2V2BJW3bKFiJZQ2QelWiyLdKySDRU8qeKek3KNygrQ1pBIBQazaxODSfVZY+8rObZGj+W60j3km5VVFFTJZq9Z2QHp/wBvxXk2r13ZDJ/9vxSpvUMCIFRquFJrBdXAugICwTVNAXEAC5KpTU5cQALkr1Oz6ERjiTmfgEBbZ9EIxzOZ+CcVSbZrPqdo382Ibx46Du4oCu2KzdG430jnyC8ltlhEb7jNjiO6xXrKXZuO9JiTjb5/JYPbR1g/+i3t+aQfNnKBRy4E1CApqCp3QQckmFcJWbVjlY0WzjRGbMFkMNjZMskWVwazmajJkZkizopRxsnIm3WdxazPZtsiPG5LxxpmNiixpKbienYZElG1HaosVtpwTLRhqMFhRvTsMmCnQfFu0ERNVUEYgzze9ckAwjQ9FFF6TzEcTwPQqu8RkD0Kiiek9q6+Vx0PQoRaeB6FRRMt2puHgehU3DwPQqKJgSKM3yPRFLCdCuqIADoiND0XNw8D0KiiAs1h4HovU9kXW3wcMG5+KiiVD1TXjiOquHjiOoUUUmuHjiOoTNLHvEAEdQoogPT7PgjjHpNvqbjoOScM7dHt6j5qKIBWSFj/AE5QeW8AOl0xCY24NLR4hRRA2u6dn3m9QvBdtqoEPsQbkNwPD/C4ogPCOUCiiFbWCuFFEB1yI0qKIPa7SjxSkZGyiiWhKeg2i4Z2K0qbabNcPWuKLO4RrOXKNGmq4z+03xt8Uw6RnEDuK4os7hG2PJa42Vt/SHUJmKdv3h1C4op+NXd//9k=');
+    background-size: cover;
+    color: teal;
+    font-style: bold;
+    font-family: fantasy;
+    font-size: 20px;
+    border: dashed teal;
+    margin-left: 40px;
+}
+
+#visualsButton{
+    width: 300px;
+    height: 200px;
+    background-image: url('https://assetsio.gnwcdn.com/lets-talk-about-persona-5s-menus-1492586694242.jpg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp');
+    background-size: cover;
+    color: limegreen;
+    font-style: bold;
+    font-family: fantasy;
+    font-size: 20px;
+    border: dashed limegreen;
+    float: right;
+    margin-right: 40px;
+}
+
+#combatButton{
+    width: 300px;
+    height: 200px;
+    background-image: url('https://www.slashgear.com/img/gallery/persona-5-royal-switch-review-best-version-made-portable/throwdown-1679330644.jpg');
+    background-size: cover;
+    color: violet;
+    font-style: bold;
+    font-family: fantasy;
+    font-size: 20px;
+    border: dashed violet;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#musicButton{
+    width: 300px;
+    height: 200px;
+    margin-left: 143px;
+    margin-right: auto;
+    margin-top: 20px;
+    background-image: url('https://m.media-amazon.com/images/I/91VDetfVuOL.jpg');
+    background-size: cover;
+    color: orange;
+    font-style: bold;
+    font-family: fantasy;
+    font-size: 20px;
+    border: dashed orange;
+}
+
+#balanceButton{
+    width: 300px;
+    height: 200px;
+    background-image: url('p5-balance-image.png');
+    background-size: cover;
+    color: gold;
+    font-style: bold;
+    font-family: fantasy;
+    font-size: 20px;
+    border: dashed gold;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+#main-combat-image{
+    margin-left: 360px;
+    margin-top: 170px;
+    width: 500px;
+    display: block;
+}
+
+.explain{
+    width: 200px;
+    height: 150px;
+    border-style: solid;
+    border-color: purple;
+    color: aquamarine
+}
+/*1em from https://stackoverflow.com/questions/501375/place-background-image-1em-from-the-right*/
+#explain-basic{
+    position: fixed;
+    top: 1em;
+    left: 1em;
+}
+
+#explain-persona{
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    height: 260px;
+}
+
+#explain-strategy{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    height: 230px;
+}
+
+#explain-item{
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
+    height: 200px;
+}
