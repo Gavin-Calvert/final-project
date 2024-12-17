@@ -29,6 +29,35 @@
     position: fixed;
 }
 
+#music-body{
+    background-image: url('https://i.ytimg.com/vi/1GPRa5CanpE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC_GwITMyj-8CMpm5YFPqAV6gl3vw');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+#balance-body{
+    background-image: url('https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/06/Persona_5_Royal_Thieves_Den_Header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+/*art from u/pimpdimpin on reddit*/
+#themes-body{
+    background-image: url('https://preview.redd.it/gpbqcddqiy0z.jpg?auto=webp&s=9feb13676e484ae5922a41e892cebb3257e26abd');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+#visuals-body{
+    background-image: url('AXrKKhiVub5jGL6e07svb-transformed.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
 #storyButton{
     width: 300px;
     height: 200px;
